@@ -14,7 +14,7 @@ import {getUser} from '@/api'
 	export default {
 		data() {
 			return {
-				shopList : '123'
+				shopList : '1234'
 			}
 		},
 		created(){
@@ -27,7 +27,7 @@ import {getUser} from '@/api'
 						"http://localhost:8088/asd"
 					)
 					.then(function(res) {
-						console.log(this,res.data)
+						console.log(this,res)
 						//this.shopList = res.data
 					})
 			},
